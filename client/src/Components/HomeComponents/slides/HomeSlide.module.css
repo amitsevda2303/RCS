@@ -1,0 +1,114 @@
+.homeSlideContainer{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    overflow-x: hidden;
+    /* background-color: #474747   ; */
+}
+
+.rightContainer{
+    border-radius: 20px;
+    width: 47% ;
+    height: 90%;
+    overflow-y: hidden;
+    position: relative;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+.rightContainer>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: .3s ease;
+}
+
+.rightContainer:hover > .rightContainerImg{
+    transform: scale(1.1);
+}
+.rightContainer:hover>.absoluteDiv{
+    /* padding-bottom: 45%; */
+    font-size: 50px;
+}
+.leftContainer{
+    border-radius: 20px;
+    width: 47% ;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.leftTopDiv{
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+    width: 100%;
+    gap: 25px;
+}
+.leftTopInnerDiv{
+    height: 95%;
+    width: 100%;
+    border-radius: 15px;
+    overflow-y: hidden;
+    position: relative;
+    cursor: pointer;
+    transition: .3s ease;
+}
+.leftTopInnerDiv:hover > .leftTopInnerDivImg{
+    transform: scale(1.2);
+}
+.leftTopInnerDiv:hover > .absoluteDiv{
+    font-size: 50px;
+    /* padding-bottom: 30%; */
+}
+.leftTopInnerDiv>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: .3s ease;
+}
+.leftBottomDiv{
+    height: 50%;
+    width: 100%;
+    overflow-y: hidden;
+    border-radius: 15px;
+    position: relative;
+    transition: .3s ease;
+    cursor: pointer;
+}
+
+.leftBottomDiv:hover>.leftBottomDivImg{
+    transform: scale(1.2);
+}
+.leftBottomDiv:hover>.absoluteDiv{
+    font-size: 50px;
+}
+
+.leftBottomDiv>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: .3s ease;
+}
+
+
+.absoluteDiv{
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    position: absolute;
+    z-index: 10;
+    font-size: 25px;
+    color: white;
+    text-transform: uppercase;
+    transition: .3s ease;
+    background: linear-gradient(to bottom, #ffffff00 0%,#222222 100%);
+}

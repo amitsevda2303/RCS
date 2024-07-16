@@ -1,0 +1,91 @@
+.footerContainer {
+  width: 100%;
+  height: auto;
+  min-height: 35vh;
+  background-color: black;
+  color: white;
+  padding-inline: 13%;
+  padding-block: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.logoDiv {
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+  align-items: start;
+  padding-block: 20px;
+  gap: 10px;
+}
+
+.logoDiv > h1 {
+  color: white;
+  font-size: 50px;
+  text-decoration: none;
+  font-weight: 800;
+}
+
+.logoDiv>p{
+    font-size: 16px;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.633);
+}
+
+.linkDiv{
+    width: 15%;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    padding-block: 30px;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.name{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.links>a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.633);
+}
+
+.lastContainer{
+    width: 100%;
+    padding-inline: 13%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.copyrighDiv{
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: gray;
+}
+
+
+.socialLinks{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.socialLinks>a{
+    color: gray;
+    font-size: 16px;
+    text-decoration: none;
+}
